@@ -144,13 +144,15 @@
                        </td>
                        <td valign="top" width="67%">
                          <p style="font-size: 18px; color: #000000;">
-                           <papertitle style="font-size: 17px; color: #2283e5;"> Automated 2D part segmentation Network</papertitle>
+                           <papertitle style="font-size: 17px; color: #2283e5;"> Applied Data Science Project -- Exploring the Taste of New York City (NYC) Neighborhoods</papertitle>
                            </br>
-                           <i style="font-size: 14px; color: #000000;">Badrinath*, Krishna Sumanth* </i>
+                           <i style="font-size: 14px; color: #000000;">Venkata Saisrikar*</i>
                          </p>
                          <p align="justify" style="text-align: justify; font-size: 14px; color: #000000;">
-                           Working on developing a novel approach to train a model which performs semantic segmentation on a given image.Data for training both the input data and semantic ground truth are automatically generated via pipeline. Using shape-Net, automatically generated a new rendered dataset with millions of images along with their semantic ground truths. The dataset varies in many ways like occlusions, different illuminations and viewpoints, crops, scales. Pipeline involves usage of multiple open source software. 
-                         </br>
+                            The idea is to categorically segment the neighborhoods of New York City into major clusters and examine their cuisines.
+                            The data of the neighborhoods was obtained from FOURSQUARE API as a JSON file, used modules such as geopy, pickles to gather relevant data, cleaned data and conducted feature engineering using ‘one-hot encoding’ function.
+                            Implemented the Silhouette method, the optimal number of clusters was found to be 8, conducted the K-means algorithm to cluster the data set into eight different clusters based on the type of cuisine.
+			    The categories were plotted using the seaborn library, used folium library to represent the map of NYC neighborhoods.                         </br>
                          <i style="font-size: 12px; color: #000000;">In progress.</i>
                          </p>
 
@@ -165,15 +167,14 @@
                       </td>
                       <td valign="top" width="67%">
                         <p style="font-size: 18px; color: #000000;">
-                          <papertitle style="font-size: 17px; color: #2283e5;"> Denoising and Stacked Autoencoder </papertitle>
+                          <papertitle style="font-size: 17px; color: #2283e5;"> Data Mining Project -- Meal detection to provide Insulin </papertitle>
                           </br>
-                          <i style="font-size: 14px; color: #000000;">Badrinath, Krishna Sumanth </i>
+                          <i style="font-size: 14px; color: #000000;">Venkata Saisrikar*, Lakshmi Sindhuja*</i>
                         </p>
                         <p align="justify" style="text-align: justify; font-size: 14px; color: #000000;">
-                            The idea is to categorically segment the neighborhoods of New York City into major clusters and examine their cuisines.
-                            The data of the neighborhoods was obtained from FOURSQUARE API as a JSON file, used modules such as geopy, pickles to gather relevant data, cleaned data and conducted feature engineering using ‘one-hot encoding’ function.
-                            Implemented the Silhouette method, the optimal number of clusters was found to be 8, conducted the K-means algorithm to cluster the data set into eight different clusters based on the type of cuisine.
-			    The categories were plotted using the seaborn library, used folium library to represent the map of NYC neighborhoods.
+                            The primary goal is to detect a patient’s meal based on time series data of Continuous Glucose Monitor(CGM) values.
+                            Performed preprocessing of data and extraction of features in Matlab based on the variation in CGM values.
+                            Classification models such as SVM, Naive Bayes, and Neural Networks have been implemented based on the above features and the data was trained on SVM as it gave the best accuracy and F1 score.
 			
                         </p>
                         <a href="https://github.com/KrishnaSumanthG/Autoencoders" target="_blank" style="color: #a04545; font-weight: bold; font-size: 14px; text-decoration:none"> Code </a>
